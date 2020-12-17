@@ -39,10 +39,7 @@ for experiment_index in range(experiments_count):
 
 [print(l) for l in experiments]
 
-
 avg_estimate = sum(experiments[-1])/len(experiments[-1])
-
-
 if avg_estimate > 70:
     uz = 1
 elif 20 < avg_estimate and avg_estimate <= 70:
