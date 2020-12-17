@@ -36,4 +36,5 @@ class PageRank:
         return response
 
 
-print(str(PageRank()))
+if __name__ == '__main__':
+    print(str(PageRank()))
